@@ -1,0 +1,228 @@
+#pre-loader {
+    background-color: #ffffff;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    margin-top: 0px;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    overflow: hidden !important;
+    right: 0px;
+    z-index: 999999; }
+#pre-loader img {
+    text-align: center;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    z-index: 99;
+    margin: 0 auto; }
+
+footer {
+    -webkit-box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.1);
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.1);
+width: 100%;
+padding: 0.1%;
+float: right;
+}
+footer #content {
+    width: 100%;
+
+}
+footer #content p {
+float: right;
+} @media (min-width: 480px)  {
+#Invite {width: 70%;margin-right: 15%;}
+}
+#navigation1 {
+    width: 100%;
+    max-width: 100%;
+    -webkit-flex-grow: 0;
+    -moz-flex-grow: 0;
+    flex-grow: 0;
+    -ms-flex-positive: 0;
+    -webkit-flex-basis: 100%;
+    -moz-flex-basis: 100%;
+    flex-basis: 100%;
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    box-flex: 1;
+    -webkit-flex: 1;
+    -moz-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    flex-grow: 1;
+    flex-basis: 0%;
+    min-width: 0;
+    min-height: 0;
+}
+#navigation #content{
+    color: #39b96f;
+
+
+}
+
+#navigation #content img{
+display: inline-block;
+    float: right;
+    width: 30%}
+
+
+#navigation #content nav {
+margin-left:   25%;
+width: auto;
+}
+#navigation #content ul{
+    display: flex;
+    margin-top: 25%;
+width: auto;
+background-color: black;
+}
+#navigation #content ul li{
+    background: rgba(0, 0, 0, 0);
+
+    display: inline;
+    cursor: pointer;
+margin-left: 2%}
+
+#navigation1 {
+    width: 100%;
+    max-width: 100%;
+    -webkit-flex-grow: 0;
+    -moz-flex-grow: 0;
+    flex-grow: 0;
+    -ms-flex-positive: 0;
+    -webkit-flex-basis: 100%;
+    -moz-flex-basis: 100%;
+    flex-basis: 100%;
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    box-flex: 1;
+    -webkit-flex: 1;
+    -moz-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    flex-grow: 1;
+    flex-basis: 0%;
+    min-width: 0;
+    min-height: 0;
+}
+#navigation1 #content{
+    color: #39b96f;
+    text-align: center;
+
+}
+@media screen and (max-width: 480px) {
+#navigation1{
+    width: 100%;
+}
+    #navigation1 img{
+    width: 100%;
+}
+}
+
+
+#Container {
+    background-color: #e5e5e5;;
+}
+#Container #Invite{
+    background-color: whitesmoke;
+}
+.jl-overflow-auto > :last-child {
+    margin-bottom: 0;
+}
+.jl-table-striped tbody tr:nth-of-type(2n+1), .jl-table-striped > tr:nth-of-type(2n+1), table.jl-table {
+    border: none;
+}
+.jl-table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.jl-table {
+    max-width: 100%;
+    background-color: transparent;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.jl-table td {
+    border: none;
+}
+.jl-table-small td, .jl-table-small th {
+    padding: 10px 12px;
+}
+.jl-table td {
+    padding: 16px 12px;
+    vertical-align: top;
+}
+td {
+    padding: 0.5rem;
+    border: 1px solid #eaeaea;
+}
+th, td {
+    padding: 0.375rem 0;
+}
+tr, td, th {
+    vertical-align: middle;
+}
+*, ::before, ::after {
+    box-sizing: inherit;
+}
+.jl-table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.jl-table {
+    border: 1px solid #eaeaea;
+}
+.jl-table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+}
+.jl-table-striped tbody tr:nth-of-type(2n+1), .jl-table-striped > tr:nth-of-type(2n+1) {
+    background: #f8f8f8;
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+}
+.jl-table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.jl-table-divider > :first-child > tr:not(:first-child), .jl-table-divider > :not(:first-child) > tr, .jl-table-divider > tr:not(:first-child) {
+    border-top: 1px solid #e5e5e5;
+}
+.jl-table tbody tr {
+    transition: background-color .1s linear;
+}
+tr, td, th {
+    vertical-align: middle;
+}
+*, ::before, ::after {
+    box-sizing: inherit;
+}
+.jl-table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.jl-table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.jl-table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.jl-table td{
+    float: right;
+}
